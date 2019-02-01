@@ -231,3 +231,15 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 980px) {
+  /* CSS for screens that are 980 pixels or less will be put in this section */
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS for screens that are 768 pixels or less will be put in this section */
+}
+
+@media screen and (max-width: 640px) {
+  /* CSS for screens that are 640 pixels or less will be put in this section */
+}
