@@ -212,17 +212,17 @@ textarea {
   background-repeat: no-repeat;
 }
 #port2 {
-  background: url("../images/rpggame.jpg");
+  background: url("../images/rpg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 #port3 {
-  background: url("../images/triviagame.jpg");
+  background: url("../images/trivia.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 #port4 {
-  background: url("../images/rutgersinfowidget.jpg");
+  background: url("../images/widget.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
