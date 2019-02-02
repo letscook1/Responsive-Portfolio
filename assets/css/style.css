@@ -247,29 +247,170 @@ textarea {
 }
 
 @media screen and (max-width: 640) {
-  .maincontent {
-    width: 100% 638px;
-  }
-  .mainheader {
-    position: static;
-    width: 100% 638px;
-    text-align: center;
-  }
-  .myname {
-    width: 100% 638px;
-    text-align: center;
-  }
-  .navbar {
-    width: 100% 638px;
-    text-align: center;
-  }
-  .portfoliolink {
-    width: 100% 638px;
-  }
-  #mypicture {
-    width: 100% 638px;
-  }
-  .bio {
-    width: 100% 638px;
+    
+ 
+   
+      
+      hr {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 95%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+      }
+    
+      
+      #myname {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        box-sizing: border-box;
+        padding: 15px;
+        margin-top: 30px;
+        float: left;
+        overflow: hidden;
+        position: static;
+        width: 636px;
+      }
+      
+      .navbar {
+        margin: 70px 10px 0px 0px;
+        padding: 0;
+        color: #cccccc;
+        float: right;
+      }
+      
+      .maincontent {
+        clear: both;
+        transition: margin-left 0.5s;
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/circles-light.png");
+        background-repeat: repeat;
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+        border-top: solid 2px #cccccc;
+      }
+
+      .bio {
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+      }
+      
+      .box1 {
+        width: 960px;
+        text-align: left;
+        position: static;
+        background-color: #ffffff;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        padding-bottom: 0;
+        border: solid #cccccc 1px;
+        box-sizing: border-box;
+        z-index: 2;
+        overflow: hidden;
+      }
+      
+      #mainheader {
+        background-color: #ffffff;
+        color: #4aaaa5;
+        box-sizing: border-box;
+        padding: 20px;
+      }
+      
+      #mypicture {
+        width: 636px;
+        float: left;
+        padding: 0px 30px 30px 0px;
+        margin: 0px;
+      }
+      
+      #biography {
+        float: left;
+        width: 70% auto;
+        padding: 10px;
+        margin: 20px;
+      }
+      
+      .myform {
+        clear: both;
+        padding: 20px;
+      }
+      
+      .myform .form-group {
+        padding-bottom: 15px;
+      }
+      
+      .myform label {
+        display: block;
+      }
+      
+      .myform input[type="text"],
+      .myform textarea {
+        padding: 15px;
+        width: 96.5%;
+        margin: 10px 0px 10px 0px;
+      }
+      
+      textarea {
+        height: 200px;
+      }
+      
+      .button {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 12pt;
+        border: solid #666666;
+        font-weight: normal;
+      }
+      
+      .portfoliolink {
+        position: relative;
+        margin: 20px;
+        width: 45%;
+        float: left;
+        height: 250px;
+      }
+      
+      .portfoliolink:nth-of-type(even) {
+        float: right;
+      }
+      
+      .portfoliotitle {
+        width: 100%;
+        display: block;
+        color: #ffffff;
+        background-color: #4aaaa5;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: center;
+        position: absolute;
+        bottom: 8px;
+      }
+      
+      #mainfooter {
+        clear: both;
+        background-color: #666666;
+        color: #ffffff;
+        padding-top: 40px;
+        border-top: solid #4aaaa5 8px;
+        box-sizing: border-box;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        bottom: 0;
+        overflow: hidden;
+        z-index: 8;
+      }
   }
 }
