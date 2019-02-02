@@ -250,7 +250,23 @@ textarea {
   .maincontent {
     width: 100%;
   }
-  .topsection {
+  .mainheader {
     position: static;
+    width: 100%;
+  }
+  .myname {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .portfoliolink {
+    width: 100%;
+  }
+  #mypicture {
+    width: 100%;
+  }
+  .bio {
+    width: 100%;
   }
 }
