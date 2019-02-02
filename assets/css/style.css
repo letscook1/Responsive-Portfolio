@@ -236,40 +236,40 @@ textarea {
 
 @media screen and (max-width: 980px) {
   .maincontent {
-    width: 100%;
+    width: 100% 974px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .maincontent {
-    width: 100%;
+    width: 100% 764px;
   }
 }
 
 @media screen and (max-width: 640) {
   .maincontent {
-    width: 100%;
+    width: 100% 638px;
   }
   .mainheader {
     position: static;
-    width: 100%;
+    width: 100% 638px;
     text-align: center;
   }
   .myname {
-    width: 100%;
+    width: 100% 638px;
     text-align: center;
   }
   .navbar {
-    width: 100%;
+    width: 100% 638px;
     text-align: center;
   }
   .portfoliolink {
-    width: 100%;
+    width: 100% 638px;
   }
   #mypicture {
-    width: 100%;
+    width: 100% 638px;
   }
   .bio {
-    width: 100%;
+    width: 100% 638px;
   }
 }
