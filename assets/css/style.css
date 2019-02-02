@@ -253,12 +253,15 @@ textarea {
   .mainheader {
     position: static;
     width: 100%;
+    text-align: center;
   }
   .myname {
     width: 100%;
+    text-align: center;
   }
   .navbar {
     width: 100%;
+    text-align: center;
   }
   .portfoliolink {
     width: 100%;
