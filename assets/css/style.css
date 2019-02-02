@@ -73,29 +73,36 @@ hr {
 }
 
 .navbar {
-  margin: 70px 10px 0px 0px;
-  padding: 0;
   color: #cccccc;
   overflow: hidden;
-  float: right;
+  position: relative;
+  float: left;
 }
 
 .navlinks {
   text-decoration: none;
   display: block;
-  float: right;
+  float: left;
   color: #777777;
+  text-align: center;
   padding: 0px 5px 0px 5px;
   margin: 0px 5px 0px 5px;
 }
 
+.navbar ul {
+  clear: both;
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
 .side-nav {
+  clear: both;
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #111;
   opacity: 0.9;
   overflow-x: hidden;
@@ -104,7 +111,7 @@ hr {
 }
 
 .side-nav a {
-  padding: 10px 30px 10px 10px;
+  padding: 10px 10px 10px 30px;
   text-decoration: none;
   font-size: 22px;
   color: #ccc;
@@ -132,7 +139,7 @@ hr {
   background-image: url("../images/circles-light.png");
   background-repeat: repeat;
   position: relative;
-  z-index: 1;
+  z-index: 0;
   overflow: hidden;
   border-top: solid 2px #cccccc;
 }
@@ -280,5 +287,13 @@ textarea {
 }
 
 @media screen and (max-width: 640px) {
-  /* CSS for screens that are 640 pixels or less will be put in this section */
+  .navbar-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .open-slide {
+    display: none;
+  }
 }
