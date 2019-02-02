@@ -7,6 +7,13 @@ body {
   padding: 0;
 }
 
+.navlinks {
+  text-decoration: none;
+  color: #777777;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 5px;
+}
+
 .navlinks:hover {
   color: #4aaaa5;
 }
@@ -70,65 +77,14 @@ hr {
   margin-top: 30px;
   float: left;
   overflow: hidden;
+  position: static;
 }
 
 .navbar {
+  margin: 70px 10px 0px 0px;
+  padding: 0;
   color: #cccccc;
-  overflow: hidden;
-  position: relative;
-  float: left;
-}
-
-.navlinks {
-  text-decoration: none;
-  display: block;
-  float: left;
-  color: #777777;
-  text-align: center;
-  padding: 0px 5px 0px 5px;
-  margin: 0px 5px 0px 5px;
-}
-
-.navbar ul {
-  clear: both;
-  margin: 8px 0 0 0;
-  list-style: none;
-}
-
-.side-nav {
-  clear: both;
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  opacity: 0.9;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
-}
-
-.side-nav a {
-  padding: 10px 10px 10px 30px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #ccc;
-  display: block;
-  transition: 0.3s;
-}
-
-.side-nav a:hover {
-  color: #ffffff;
-}
-
-.side-nav .btn-close {
-  position: absolute;
-  top: 0;
-  right: 22px;
-  font-size: 36px;
-  margin-left: 50px;
+  float: right;
 }
 
 .maincontent {
@@ -279,21 +235,22 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-  /* CSS for screens that are 980 pixels or less will be put in this section */
-}
-
-@media screen and (max-width: 768px) {
-  /* CSS for screens that are 768 pixels or less will be put in this section */
-}
-
-@media screen and (max-width: 640px) {
-  .navbar-nav {
-    display: none;
+  .maincontent {
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 640px) {
-  .open-slide {
-    display: none;
+@media screen and (max-width: 768px) {
+  .maincontent {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640) {
+  .maincontent {
+    width: 100%;
+  }
+  .topsection {
+    position: static;
   }
 }
