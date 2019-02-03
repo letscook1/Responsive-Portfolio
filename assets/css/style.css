@@ -303,7 +303,7 @@ textarea {
     padding-bottom: 10px;
     position: static;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 
   .topsection {
@@ -311,13 +311,14 @@ textarea {
     width: 100%;
   }
 
-  .myname {
+  #myname {
     width: 100%;
     position: static;
     text-align: center;
     display: block;
     overflow: auto;
     margin-top: 0;
+    padding: 0.5em;
     top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -326,7 +327,7 @@ textarea {
   .navbar {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0.2em;
     text-align: center;
     display: block;
     overflow: hidden;
