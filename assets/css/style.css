@@ -239,9 +239,6 @@ textarea {
     position: relative;
     width: 100%;
   }
-  .box1 {
-    width: 100%;
-  }
 
   #mypicture {
     float: none;
@@ -253,6 +250,10 @@ textarea {
     clear: none;
     padding-top: 15px;
     margin-right: 20px;
+  }
+
+  .box1 {
+    width: 95%;
   }
 }
 
@@ -268,15 +269,12 @@ textarea {
   }
 
   .box1 {
-    width: 95%;
-  }
-
-  h1 {
-    margin-left: 20px;
+    width: 93%;
   }
 
   .navbar {
-    margin-right: 0;
+    margin-right: 4em;
+    margin-left: 0em;
   }
 
   #biography {
@@ -284,9 +282,18 @@ textarea {
   }
 
   #mypicture {
-    padding-bottom: 10px;
-    padding-top: 15px;
-    margin-right: 20px;
+    width: 20%;
+    float: left;
+    margin: 0em 1em 1em 0em;
+  }
+
+  .bio {
+    width: 60%;
+    float: left;
+  }
+  .formgroup {
+    float: clear both;
+    width: 92%;
   }
 
   .portfoliolink {
@@ -358,6 +365,11 @@ textarea {
     margin-right: 4em;
     display: block;
   }
+
+  .myform {
+    width: 92%;
+  }
+
   .bio {
     width: 85%;
     height: auto;
