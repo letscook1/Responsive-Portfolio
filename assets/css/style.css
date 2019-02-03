@@ -243,15 +243,6 @@ textarea {
     width: 100%;
   }
 
-  h1 {
-    font-size: 50px;
-    margin-left: 150px;
-  }
-
-  .navbar {
-    margin-right: 50px;
-  }
-
   #mypicture {
     float: none;
     width: 300px;
@@ -298,10 +289,27 @@ textarea {
     margin-right: 20px;
   }
 
-  .outerporfolio {
-    width: 65%;
-    height: 500px;
+  .portfoliolink {
+    position: relative;
+    margin: 1.5em;
+    width: 43%;
+    float: left;
+  }
+
+  .portfoliolink:nth-of-type(even) {
+    float: right;
+  }
+
+  .portfoliotitle {
+    width: 100%;
     display: block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: normal;
+    padding: 0.5em 0em;
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
   }
 }
 
