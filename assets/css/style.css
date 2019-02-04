@@ -178,10 +178,6 @@ textarea {
   height: 250px;
 }
 
-.portfoliolink:nth-of-type(even) {
-  float: right;
-}
-
 .portfoliotitle {
   width: 100%;
   display: block;
@@ -294,10 +290,6 @@ textarea {
     float: left;
   }
 
-  .portfoliolink:nth-of-type(even) {
-    float: right;
-  }
-
   .portfoliotitle {
     width: 100%;
     display: block;
@@ -373,7 +365,7 @@ textarea {
   .portfoliolink {
     margin: 2em;
     padding: 2em;
-    width: 65%;
+    width: 75%;
     float: left;
   }
 
